@@ -13,6 +13,26 @@ body
    background-repeat: no-repeat;
    background-size: cover;
 }
+body p
+{
+   position: absolute;
+   right: 170px;
+   bottom: 05px;
+   font-size: 1em;
+   color: #000;
+   display: block;
+}
+body p a
+{
+   cursor: pointer;
+   position: absolute;
+   right: 5px;
+   bottom: 5px;
+   color: aqua;
+   display: block;
+   font-size: 1em;
+   text-decoration: none;
+}
 .container
 {
    position: absolute;
@@ -45,26 +65,6 @@ body
    font-weight: 300;
    letter-spacing: 6px;
    font-size: 0.3em;
-}
-body p
-{
-   position: absolute;
-   right: 170px;
-   bottom: 05px;
-   font-size: 1em;
-   color: #000;
-   display: block;
-}
-body a
-{
-   cursor: pointer;
-   position: absolute;
-   right: 5px;
-   bottom: 5px;
-   color: aqua;
-   display: block;
-   font-size: 1em;
-   text-decoration: none;
 }
 .countdown
 {
