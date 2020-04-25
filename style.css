@@ -24,12 +24,10 @@ body p
 }
 body p a
 {
-   cursor: pointer;
    position: absolute;
    right: 5px;
    bottom: 5px;
-   color: aqua;
-   display: block;
+   color: 00ddff;
    font-size: 1em;
    text-decoration: none;
 }
