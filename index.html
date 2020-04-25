@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Countdown to newYear</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>New Tab</title>
+      <link rel="shortcut icon" type="image/png" href="favicon.png">
+      <link rel="shortcut icon" sizes="196x196" href="favicon.png">
+      <link rel="apple-touch-icon" href="favicon.png">
+      <link rel="dns-prefetch" href="//fonts.googleapis.com">
+      <link rel="dns-prefetch" href="//fonts.gstatic.com">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Major+Mono+Display">
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <p>© 2020</p><a href="https://www.facebook.com/thonqphamm404/" target="_blank">PHẠM MINH THÔNG</a>
+      <div class="container">
+         <h2><span>CÒN BAO LÂU NỮA THÌ ĐẾN TẾT</span>2021</h2>
+         <div class="countdown">
+            <div id="day">N/A</div>
+            <div id="hour">N/A</div>
+            <div id="minute">N/A</div>
+            <div id="second">N/A</div>
+            </div>
+         </div>
+         <script type='text/javascript'>
+            var countDate = new Date('Feb 11, 2021 00:00:00').getTime();
+
+            function newYear(){
+               var now = new Date().getTime();
+                   gap = countDate - now;
+
+                   var second = 1000;
+                   var minute = second * 60;
+                   var hour = minute * 60;
+                   var day = hour * 24;
+
+                   var d = Math.floor(gap / (day));
+                   var h = Math.floor((gap % (day)) / (hour));
+                   var m = Math.floor((gap % (hour)) / (minute));
+                   var s = Math.floor((gap % (minute)) / (second));
+
+                   document.getElementById('day').innerText = d;
+                   document.getElementById('hour').innerText = h;
+                   document.getElementById('minute').innerText = m;
+                   document.getElementById('second').innerText = s;
+            }
+
+            setInterval(function(){
+               newYear();
+            },1000)
+         </script>
+   </body>
+</html>
+
+
