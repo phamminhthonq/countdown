@@ -27,9 +27,10 @@ body p a
    position: absolute;
    right: 5px;
    bottom: 5px;
-   color: 00ddff;
+   color: #00ddff;
    font-size: 1em;
    text-decoration: none;
+   display: block;
 }
 .container
 {
