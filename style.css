@@ -34,7 +34,7 @@ div a
 }
 div a:hover
 {
-   color: #000;
+   color: #fff;
 }
 .container
 {
@@ -123,12 +123,12 @@ div a:hover
 }
 @media only screen and (max-width: 400px) {
       div a{
-        font-size: 2em;
+         font-size: 2em;
    }
       div p{
-        position: absolute;
-        right: 250px;
-        bottom: 05px;
-        font-size: 2em;
+         position: absolute;
+         right: 250px;
+         bottom: 05px;
+         font-size: 2em;
    }
 }
