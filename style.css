@@ -117,8 +117,14 @@ div a
    content: 'GIÂY';
 
 }
-@media only screen and (min-width: 400px) {
-     div p, div a{
+@media only screen and (max-width: 400px) {
+      div a{
+        font-size: 2em;
+   }
+      div p{
+        position: absolute;
+        right: 250px;
+        bottom: 05px;
         font-size: 2em;
    }
 }
