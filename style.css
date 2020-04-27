@@ -16,7 +16,7 @@ body
 div p
 {
    position: absolute;
-   right: 170px;
+   right: 175px;
    bottom: 05px;
    font-size: 1em;
    color: #000;
@@ -25,7 +25,7 @@ div p
 div a
 {
    position: absolute;
-   right: 5px;
+   right: 10px;
    bottom: 5px;
    color: #00ddff;
    font-size: 1em;
@@ -116,4 +116,9 @@ div a
 {
    content: 'GIÂY';
 
+}
+@media only screen and (min-width: 400px) {
+     div p, div a{
+        font-size: 2em;
+   }
 }
