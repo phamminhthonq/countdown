@@ -18,8 +18,9 @@ p
    position: absolute;
    right: 30px;
    bottom: 10px;
-   font-size: 1.5m;
-   color: #000;
+   font-size: 1.5em;
+   font-weight: 300;
+   color: #111;
    display: flex;
 }
 a
@@ -35,7 +36,7 @@ a
 }
 a:hover
 {
-   color: #fffff0;
+   color: #0080b3;
 }
 .container
 {
