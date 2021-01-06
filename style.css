@@ -31,10 +31,11 @@ div a
    font-size: 1em;
    text-decoration: none;
    display: block;
+   transtion: 0.5s ease-in-out;
 }
 div a:hover
 {
-   color: #fff;
+   color: #fffff0;
 }
 .container
 {
@@ -121,9 +122,9 @@ div a:hover
    content: 'GIÂY';
 
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 992px) {
       div a{
-         font-size: 2em;
+         font-size: 3em;
    }
       div p{
          position: absolute;
