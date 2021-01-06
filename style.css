@@ -13,27 +13,27 @@ body
    background-repeat: no-repeat;
    background-size: cover;
 }
-div p
+p
 {
    position: absolute;
-   right: 175px;
-   bottom: 05px;
-   font-size: 1em;
+   right: 30;
+   bottom: 10;
+   font-size: 1.5m;
    color: #000;
-   display: block;
+   display: flex;
 }
-div a
+a
 {
-   position: absolute;
-   right: 10px;
-   bottom: 5px;
+   position: relative;
+/*    right: 10px; */
+/*    bottom: 5px; */
    color: #00ddff;
-   font-size: 1em;
+/*    font-size: 1em; */
    text-decoration: none;
    display: block;
    transtion: 0.5s ease-in-out;
 }
-div a:hover
+a:hover
 {
    color: #fffff0;
 }
@@ -60,7 +60,7 @@ div a:hover
    text-align: center;
    font-size: 7em;
    line-height: 0.7em;
-   color: #333;
+   color: #222;
    margin-top: -80px;
 }
 .container h2 span
@@ -123,13 +123,10 @@ div a:hover
 
 }
 @media only screen and (max-width: 992px) {
-      div a{
-         font-size: 3em;
-   }
-      div p{
+      p{
          position: absolute;
-         right: 250px;
-         bottom: 05px;
-         font-size: 2em;
+         right: 20px;
+         bottom: 20px;
+         font-size: 3em;
    }
 }
