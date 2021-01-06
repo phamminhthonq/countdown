@@ -16,8 +16,8 @@ body
 p
 {
    position: absolute;
-   right: 30;
-   bottom: 10;
+   right: 30px;
+   bottom: 10px;
    font-size: 1.5m;
    color: #000;
    display: flex;
@@ -31,7 +31,7 @@ a
 /*    font-size: 1em; */
    text-decoration: none;
    display: block;
-   transtion: 0.5s ease-in-out;
+   transition: 0.5s ease-in-out;
 }
 a:hover
 {
